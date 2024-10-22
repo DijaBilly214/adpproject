@@ -1,0 +1,32 @@
+.sheltername {
+    margin-top: 50px;
+    color: orange;
+}
+
+.item-grid {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+
+}
+
+.item {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.unclickable-button {
+    background-color: rgb(253,213,164);
+    cursor: auto;
+}
+.unclickable-button:hover {
+    background-color: rgb(253,213,164);
+    cursor: auto;
+}
+

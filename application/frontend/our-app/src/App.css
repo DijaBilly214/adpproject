@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.pet-image-container, 
+.blog-container,
+.about-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.pet-image, 
+.blog-image,
+.about-us-image{
+  width: 100%;
+  height: auto;
+  filter: brightness(0.8) contrast(0.7) blur(1.8px);
+}
+
+.pet-image-text, 
+.blog-text,
+.about-us-text{
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .pet-image-text, 
+  .blog-text,
+  .about-us-text {
+    font-size: 4rem; 
+  }
+}
+
+@media (max-width: 750px) {
+  .pet-image-text,
+  .blog-text,
+  .about-us-text {
+    font-size: 3rem; 
+  }
+}
+
+@media (max-width: 600px) {
+  .pet-image-text,
+  .blog-text,
+  .about-us-text {
+    font-size: 2rem; 
+  }
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: rgb(221, 132, 38);
+  align-items: center;
+  justify-content: center;
+}
+
+.pet-image-container,
+.blog-container{
+  transition: transform 0.4s;
+}
+
+.pet-image-container:hover,
+.blog-container:hover{
+  transform: scale(1.2);
+}
+
+/* .App {
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

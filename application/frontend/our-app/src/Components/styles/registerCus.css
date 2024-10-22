@@ -1,0 +1,108 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 30px;
+
+}
+.header{
+    color :coral;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 32px;
+}
+input{
+    display: flex;
+    margin: auto;
+    width: 380px;
+    height: 40px;   
+    font-size: 18px;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 40px;
+    color: coral;
+    /* font-size: large; */
+}
+input:hover{
+    background-color: rgb(253, 213, 164);
+}
+button{
+    background-color: #ffba70;
+}
+button:hover {
+    background-color: #ffdaa6;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.smaller-info{
+    width: 175px;
+    margin-left: 10px;  
+    margin-right: 10px;
+}
+
+.register-button {
+    background-color: #ffba70;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.form {
+    border: 2px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px; 
+}
+
+.usertypes{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.usertype input{
+    transform: scale(0.6);
+    margin-right: 100px;
+} 
+
+.usertype label {
+    width: 100px;
+} 
+
+.usertype-labels{
+    color: #ffa23e;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.questionnaire{
+    margin-left: 12px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.questionnaire-label{
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
